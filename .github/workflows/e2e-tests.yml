@@ -1,0 +1,48 @@
+name: Run E2E Tests
+on:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    name: Run End-to-End Tests
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 18.x
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Clone API Service
+      run: npm run clone:api
+
+    - name: Clone Client
+      run: npm run clone:client
+
+    - name: Install API dependencies
+      run: npm run install:api
+
+    - name: Install Client dependencies
+      run: npm run install:client
+
+    - name: Start API service
+      run: npm run start:api &
+      # Run in background.
+
+    - name: Wait for API to start
+      run: sleep 10
+
+    - name: Start Client service
+      run: npm run start:client &
+      # Run in background.
+
+    - name: Wait for Client to start
+      run: sleep 10
+
+    - name: Running E2E Tests
+      run: npm run test:e2e

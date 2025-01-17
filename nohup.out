@@ -1,0 +1,206 @@
+
+> ninjaone-assignment@1.0.0 install:client
+> cd devices-clientapp && npm install && cd -
+
+
+up to date, audited 1506 packages in 3s
+
+270 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (3 low, 9 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+/Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment
+
+> ninjaone-assignment@1.0.0 start:client
+> cd devices-clientapp && npm start
+
+
+> devices-clientapp@0.1.0 start
+> PORT=3001 react-scripts --openssl-legacy-provider start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:2769) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2769) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view devices-clientapp in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://10.0.0.16:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> ninjaone-assignment@1.0.0 start:client
+> cd devices-clientapp && npm start
+
+
+> devices-clientapp@0.1.0 start
+> PORT=3001 react-scripts --openssl-legacy-provider start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:2802) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2802) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view devices-clientapp in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://10.0.0.16:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+> ninjaone-assignment@1.0.0 install:api
+> cd devicesTask_serverApp && npm install && cd -
+
+npm WARN deprecated fsevents@1.2.4: Upgrade to fsevents v2 to mitigate potential security issues
+
+up to date, audited 343 packages in 11s
+
+55 vulnerabilities (4 low, 5 moderate, 13 high, 33 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+/Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment
+
+> ninjaone-assignment@1.0.0 install:api
+> cd devicesTask_serverApp && npm install && cd -
+
+npm WARN deprecated fsevents@1.2.4: Upgrade to fsevents v2 to mitigate potential security issues
+
+up to date, audited 343 packages in 5s
+
+55 vulnerabilities (4 low, 5 moderate, 13 high, 33 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+/Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment
+
+> ninjaone-assignment@1.0.0 start:api
+> cd devicesTask_serverApp && npm start
+
+
+> api-devices@1.0.0 start
+> babel-node index.js
+
+consign v0.1.6 Initialized in /Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment/devicesTask_serverApp
++ ./libs/middlewares.js
++ ./routes/devices.js
++ ./routes/index.js
++ ./libs/boots.js
+server on port 3000
+
+> ninjaone-assignment@1.0.0 start:api
+> cd devicesTask_serverApp && npm start
+
+
+> api-devices@1.0.0 start
+> babel-node index.js
+
+consign v0.1.6 Initialized in /Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment/devicesTask_serverApp
++ ./libs/middlewares.js
++ ./routes/devices.js
++ ./routes/index.js
++ ./libs/boots.js
+server on port 3000
+
+> ninjaone-assignment@1.0.0 start:api
+> cd devicesTask_serverApp && npm start
+
+
+> api-devices@1.0.0 start
+> babel-node index.js
+
+consign v0.1.6 Initialized in /Users/jeancarlospaivamiranda/Documents/ninjaOne-assignment/devicesTask_serverApp
++ ./libs/middlewares.js
++ ./routes/devices.js
++ ./routes/index.js
++ ./libs/boots.js
+server on port 3000
+[0mGET /devices/1737122953263 [32m200 [0m0.846 ms - -[0m
+[0mPOST /devices/ [32m200 [0m1.312 ms - 120[0m
+[0mDELETE /devices/FbANDMpSZ8 [32m200 [0m0.241 ms - 1[0m
+[0mDELETE /devices/FbANDMpSZ8 [32m200 [0m0.189 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.240 ms - 121[0m
+[0mDELETE /devices/1737122953394 [32m200 [0m0.111 ms - 1[0m
+[0mDELETE /devices/zQJ3pDdb7gz [32m200 [0m0.079 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.138 ms - 121[0m
+[0mPUT /devices/507pPptnXRE [32m200 [0m0.155 ms - 1[0m
+[0mGET /devices/507pPptnXRE [32m200 [0m0.160 ms - 125[0m
+[0mDELETE /devices/507pPptnXRE [32m200 [0m0.138 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.186 ms - 121[0m
+[0mPUT /devices/null [32m200 [0m0.073 ms - 1[0m
+[0mDELETE /devices/MGZQ_kHkQeP [32m200 [0m0.086 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.137 ms - 121[0m
+[0mPUT /devices/1737122953494 [32m200 [0m0.071 ms - 1[0m
+[0mDELETE /devices/-89ME6qpm_B [32m200 [0m0.070 ms - 1[0m
+[0mGET /devices/ [32m200 [0m5.658 ms - 1594[0m
+[0mPOST /devices/ [32m200 [0m0.173 ms - 118[0m
+[0mGET /devices/ [32m200 [0m0.079 ms - 1738[0m
+[0mDELETE /devices/ [33m404 [0m0.673 ms - 150[0m
+[0mGET /devices/ [32m200 [0m0.175 ms - 1738[0m
+[0mPOST /devices/ [32m200 [0m0.112 ms - 72[0m
+[0mDELETE /devices/ [33m404 [0m0.163 ms - 150[0m
+[0mGET /devices/ [32m200 [0m0.128 ms - 1832[0m
+[0mPOST /devices/ [32m200 [0m0.100 ms - 104[0m
+[0mDELETE /devices/ [33m404 [0m0.078 ms - 150[0m
+[0mGET /devices/ [32m200 [0m0.089 ms - 1958[0m
+[0mPOST /devices/ [32m200 [0m0.093 ms - 112[0m
+[0mDELETE /devices/ [33m404 [0m0.103 ms - 150[0m
+[0mGET /devices/1737122995379 [32m200 [0m1.249 ms - -[0m
+[0mPOST /devices/ [32m200 [0m0.592 ms - 121[0m
+[0mDELETE /devices/CW9_SQh2EzJ [32m200 [0m0.076 ms - 1[0m
+[0mDELETE /devices/CW9_SQh2EzJ [32m200 [0m0.062 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.096 ms - 121[0m
+[0mDELETE /devices/1737122995473 [32m200 [0m0.067 ms - 1[0m
+[0mDELETE /devices/I25o2IbtmF_ [32m200 [0m0.051 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.131 ms - 120[0m
+[0mPUT /devices/DcRx2ngbaQ [32m200 [0m0.071 ms - 1[0m
+[0mGET /devices/DcRx2ngbaQ [32m200 [0m0.068 ms - 124[0m
+[0mDELETE /devices/DcRx2ngbaQ [32m200 [0m0.056 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.093 ms - 121[0m
+[0mPUT /devices/null [32m200 [0m0.058 ms - 1[0m
+[0mDELETE /devices/Dzxpeve9z6x [32m200 [0m0.074 ms - 1[0m
+[0mPOST /devices/ [32m200 [0m0.123 ms - 121[0m
+[0mPUT /devices/1737122995571 [32m200 [0m0.060 ms - 1[0m
+[0mDELETE /devices/2l81tWM-KAZ [32m200 [0m0.054 ms - 1[0m
+sh: line 1:  3555 Killed: 9               npm start
